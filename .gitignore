@@ -1,0 +1,7 @@
+.env
+node_modules/
+*.log
+
+zitate-webapp/.env
+zitate-webapp/node_modules/
+zitate-webapp/*.log

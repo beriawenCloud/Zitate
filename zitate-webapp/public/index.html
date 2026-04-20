@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zitate-Archiv</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Obsidian Vault</p>
+          <h1>Zitate-Archiv</h1>
+        </div>
+        <p class="hero-copy">Neue Zitate erfassen und direkt in die passende Kategorie-Datei schreiben.</p>
+      </section>
+
+      <form id="quote-form" class="quote-form">
+        <div id="access-field" class="field full access-field">
+          <label for="accessCode">Zugangscode</label>
+          <input id="accessCode" name="accessCode" type="password" autocomplete="current-password" placeholder="Nur erforderlich, wenn online gesetzt">
+        </div>
+
+        <div class="field full">
+          <label for="quote">Zitat</label>
+          <textarea id="quote" name="quote" rows="5" required placeholder="Zitat eingeben"></textarea>
+        </div>
+
+        <div class="field">
+          <label for="category">Kategorie</label>
+          <select id="category" name="category" required></select>
+        </div>
+
+        <div class="field">
+          <label for="source">Quelle</label>
+          <input id="source" name="source" placeholder="z. B. Der gezähmte Widerspenstige">
+        </div>
+
+        <div class="field">
+          <label for="medium">Medium</label>
+          <select id="medium" name="medium">
+            <option>Film</option>
+            <option>Serie</option>
+            <option>Buch</option>
+            <option>Song</option>
+            <option>Person</option>
+            <option>Witz / mögliche Filmsynchronisation</option>
+            <option>unbekannt</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="year">Jahr</label>
+          <input id="year" name="year" inputmode="numeric" placeholder="unbekannt">
+        </div>
+
+        <div class="field">
+          <label for="speaker">Sprecher</label>
+          <input id="speaker" name="speaker" placeholder="Figur oder Person">
+        </div>
+
+        <div class="field">
+          <label for="language">Sprache</label>
+          <input id="language" name="language" placeholder="z. B. Deutsch">
+        </div>
+
+        <div class="field full">
+          <label for="tags">Tags</label>
+          <input id="tags" name="tags" placeholder="humorvoll, trocken, wortspiel">
+        </div>
+
+        <div class="field">
+          <label for="mood">Stimmung</label>
+          <input id="mood" name="mood" placeholder="kurz und präzise">
+        </div>
+
+        <div class="field">
+          <label for="suitableFor">Geeignet für</label>
+          <input id="suitableFor" name="suitableFor" placeholder="Caption, Dialognotiz">
+        </div>
+
+        <div class="field full">
+          <label for="reason">Warum es hängen bleibt</label>
+          <textarea id="reason" name="reason" rows="3" placeholder="kurze Einordnung"></textarea>
+        </div>
+
+        <div class="actions">
+          <button type="reset" class="secondary">Leeren</button>
+          <button type="submit">Speichern</button>
+        </div>
+
+        <p id="status" class="status" role="status" aria-live="polite"></p>
+      </form>
+    </main>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>
