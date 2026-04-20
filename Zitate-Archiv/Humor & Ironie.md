@@ -32,3 +32,18 @@ tags: [humorvoll, bissig, wortspiel, trocken, adriano-celentano, deutsche-synchr
 **Stimmung:** Frech, trocken, direkt  
 **Warum es hängen bleibt:** Das Wortspiel kippt eine harmlose Frage in eine spitze Bemerkung; die Zuordnung zum Film ist plausibel, aber noch nicht verifiziert.  
 **Geeignet für:** Schlagfertigkeit, Dialognotiz, Alltagshumor
+---
+quelle: Sledge Hammer
+medium: Film
+jahr: 1986
+sprecher: Dori Doreau
+sprache: Deutsch
+tags: [humorvoll, trocken, schlagfertig]
+---
+
+"A: Sie haben doch nicht alle Tassen im Schrank!
+B: Das mag sein, aber dafür ist der Schrank schön."
+
+**Stimmung:** unbekannt
+**Warum es hängen bleibt:** unbekannt
+**Geeignet für:** unbekannt
