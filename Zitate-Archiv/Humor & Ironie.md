@@ -59,4 +59,17 @@ B: Das mag sein, aber dafür ist der Schrank schön."
 **Stimmung:** unbekannt
 **Warum es hängen bleibt:** unbekannt
 **Geeignet für:** unbekannt
+---
+quelle: Der gezähmte Widerspenstige
+medium: Film
+jahr: 1980
+sprecher: Elia
+sprache: Deutsch
+tags: [humorvoll, trocken]
+---
 
+"Mit Tieren muss man reden, das hat immer irgendeinen Sinn, das sind schließlich keine Menschen."
+
+**Stimmung:** unbekannt
+**Warum es hängen bleibt:** unbekannt
+**Geeignet für:** unbekannt
